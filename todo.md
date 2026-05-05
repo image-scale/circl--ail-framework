@@ -4,7 +4,7 @@
 Start with core configuration and utility modules, then build the object system with abstract base class, followed by pattern extraction modules (regex helper, extractors). Add correlation engine, tracker system, language detection, and tagging. Finally implement search capabilities and integration tests.
 
 ## Tasks
-- [ ] Task 1: Implement configuration management that loads settings from INI files and provides access to application settings including database connections, file directories, and feature flags (config.py + tests)
+- [>] Task 1: Implement configuration management that loads settings from INI files and provides access to application settings including database connections, file directories, and feature flags (config.py + tests)
 - [ ] Task 2: Implement a regex utility module that provides safe pattern matching with timeout protection, supporting findall, finditer, match and search operations with configurable timeouts to prevent ReDoS attacks (regex_utils.py + tests)
 - [ ] Task 3: Implement pattern extractors that detect and extract emails, URLs, credit card numbers, phone numbers, cryptocurrency addresses, and other sensitive data from text content (extractors.py + tests)
 - [ ] Task 4: Implement the core object system with an abstract base class that supports ID management, content retrieval, tagging, and metadata storage, plus concrete implementations for text items and decoded files (objects/base.py, objects/items.py, objects/decodeds.py + tests)
